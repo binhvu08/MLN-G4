@@ -21,7 +21,7 @@
     <!-- Navbar Mục Lục -->
     <nav class="toc-navbar">
         <div class="nav-container">
-            <a href="#hero" class="nav-logo">MLN</a>
+            <a href="#hero" class="nav-logo">MLN111</a>
             <ul class="nav-links">
                 <li><a href="#intro">Khái niệm</a></li>
                 <li><a href="#categories">Các cặp phạm trù</a></li>
@@ -43,7 +43,7 @@
     </header>
 
     <!-- Intro Definition Section -->
-    <section id="intro" class="intro-definition-section section-container reveal" style="padding-bottom: 20px;">
+    <section id="intro" class="intro-definition-section section-container reveal">
         <div class="section-header" style="margin-bottom: 40px;">
             <h2>Định nghĩa các khái niệm cơ bản</h2>
         </div>
@@ -56,6 +56,10 @@
             <div class="concept-definition" style="max-height: none;">
                 <p style="font-size: 1.25rem;"><strong>Phạm Trù:</strong> khái niệm rất chung, rất rộng, dùng để chỉ
                     những đặc điểm, mối liên hệ cơ bản của sự vật, hiện tượng trong thế giới.</p>
+                <div style="text-align: center; padding: 0 30px 30px 30px;">
+                    <img src="phamtru.jpg" alt="Các cặp phạm trù"
+                        style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: var(--shadow-md);">
+                </div>
             </div>
         </div>
     </section>
@@ -68,39 +72,7 @@
         </div>
 
         <div class="categories-grid" id="cat-grid">
-            <!-- Card 1 -->
-            <div class="cat-card" data-cat="nd-ht">
-                <div class="cat-content">
-                    <i class="fa-solid fa-layer-group cat-icon"></i>
-                    <h3 class="cat-title">Nội dung & Hình thức</h3>
-                </div>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="cat-card" data-cat="bc-ht">
-                <div class="cat-content">
-                    <i class="fa-solid fa-magnifying-glass cat-icon"></i>
-                    <h3 class="cat-title">Bản chất & Hiện tượng</h3>
-                </div>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="cat-card" data-cat="tn-nn">
-                <div class="cat-content">
-                    <i class="fa-solid fa-dice cat-icon"></i>
-                    <h3 class="cat-title">Tất nhiên & Ngẫu nhiên</h3>
-                </div>
-            </div>
-
-            <!-- Card 4 -->
-            <div class="cat-card" data-cat="kn-ht">
-                <div class="cat-content">
-                    <i class="fa-solid fa-seedling cat-icon"></i>
-                    <h3 class="cat-title">Khả năng & Hiện thực</h3>
-                </div>
-            </div>
-
-            <!-- Card 5 -->
+            <!-- Card 1: Cái riêng & Cái chung -->
             <div class="cat-card" data-cat="cr-cc">
                 <div class="cat-content">
                     <i class="fa-solid fa-users cat-icon"></i>
@@ -108,15 +80,46 @@
                 </div>
             </div>
 
-            <!-- Card 6 -->
+            <!-- Card 2: Nguyên nhân & Kết quả -->
             <div class="cat-card" data-cat="nn-kq">
                 <div class="cat-content">
                     <i class="fa-solid fa-link cat-icon"></i>
                     <h3 class="cat-title">Nguyên nhân & Kết quả</h3>
                 </div>
             </div>
-        </div>
 
+            <!-- Card 3: Tất nhiên & Ngẫu nhiên -->
+            <div class="cat-card" data-cat="tn-nn">
+                <div class="cat-content">
+                    <i class="fa-solid fa-dice cat-icon"></i>
+                    <h3 class="cat-title">Tất nhiên & Ngẫu nhiên</h3>
+                </div>
+            </div>
+
+            <!-- Card 4: Nội dung & Hình thức -->
+            <div class="cat-card" data-cat="nd-ht">
+                <div class="cat-content">
+                    <i class="fa-solid fa-layer-group cat-icon"></i>
+                    <h3 class="cat-title">Nội dung & Hình thức</h3>
+                </div>
+            </div>
+
+            <!-- Card 5: Bản chất & Hiện tượng -->
+            <div class="cat-card" data-cat="bc-ht">
+                <div class="cat-content">
+                    <i class="fa-solid fa-magnifying-glass cat-icon"></i>
+                    <h3 class="cat-title">Bản chất & Hiện tượng</h3>
+                </div>
+            </div>
+
+            <!-- Card 6: Khả năng & Hiện thực -->
+            <div class="cat-card" data-cat="kn-ht">
+                <div class="cat-content">
+                    <i class="fa-solid fa-seedling cat-icon"></i>
+                    <h3 class="cat-title">Khả năng & Hiện thực</h3>
+                </div>
+            </div>
+        </div>
         <!-- 3. Expanded Analysis -->
         <div id="analysis-box" class="analysis-container">
             <div class="analysis-content" id="analysis-content">
@@ -175,6 +178,12 @@
         <p style="text-align: center; margin-top: 30px; font-style: italic; color: var(--text-light);">Sinh viên A bất
             mãn cho rằng B "ăn may" hoặc có "cơ cấu". Chúng ta hãy cùng dùng lăng kính Triết học để giải mã sự việc này.
         </p>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <button id="open-apply-modal" class="btn-primary">
+                <i class="fa-solid fa-lightbulb"></i> Áp dụng kiến thức
+            </button>
+        </div>
     </section>
     <!-- 6. Video Section -->
     <section id="video" class="video-section section-container reveal">
@@ -193,8 +202,68 @@
     </section>
 
     <footer>
-        <p>&copy; 2026 Học viện Triết học. Designed for Interactive Presentation.</p>
+        <p>&copy; 2026 Trường Đại học FPT Phân hiệu Hồ Chí Minh. Designed for Interactive Presentation.</p>
     </footer>
+
+    <!-- Modal Áp dụng kiến thức -->
+    <div id="apply-modal" class="modal-overlay">
+        <div class="modal-content-box">
+            <button class="modal-close"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <h3>Tình huống này thể hiện:</h3>
+            </div>
+            <div class="modal-body">
+                <ul class="school-list">
+                    <li>
+                        <strong><i class="fa-solid fa-layer-group"></i> Nội dung & Hình thức:</strong>
+                        <p>Năng lực thực tế quan trọng hơn vẻ ngoài CV.</p>
+                    </li>
+                    <li>
+                        <strong><i class="fa-solid fa-magnifying-glass"></i> Bản chất & Hiện tượng:</strong>
+                        <p>Nhà tuyển dụng nhìn vào năng lực thật chứ không chỉ bằng cấp.</p>
+                    </li>
+                    <li>
+                        <strong><i class="fa-solid fa-dice"></i> Tất nhiên & Ngẫu nhiên:</strong>
+                        <p>Thành công của B là kết quả tất yếu của kỹ năng thực tế, không phải "ăn may".</p>
+                    </li>
+                    <li>
+                        <strong><i class="fa-solid fa-seedling"></i> Khả năng & Hiện thực:</strong>
+                        <p>Doanh nghiệp cần giá trị thực tế ngay lập tức.</p>
+                    </li>
+                    <li>
+                        <strong><i class="fa-solid fa-users"></i> Cái riêng & Cái chung:</strong>
+                        <p>B đáp ứng đúng yêu cầu chung của công ty.</p>
+                    </li>
+                    <li>
+                        <strong><i class="fa-solid fa-link"></i> Nguyên nhân & Kết quả:</strong>
+                        <p>Kết quả tuyển dụng xuất phát từ năng lực thực tế của từng ứng viên.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Các trường phái -->
+    <div id="extra-modal" class="modal-overlay">
+        <div class="modal-content-box">
+            <button class="modal-close"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <h3>Các trường phái khác</h3>
+            </div>
+            <div class="modal-body">
+                <ul class="school-list">
+                    <li>
+                        <strong><i class="fa-solid fa-landmark"></i> Duy Thực:</strong>
+                        <p>Cái chung tồn tại thật, độc lập với cái riêng.</p>
+                    </li>
+                    <li>
+                        <strong><i class="fa-solid fa-users-viewfinder"></i> Duy Danh:</strong>
+                        <p>Chỉ cái riêng mới tồn tại thật, còn cái chung chỉ là tên gọi do con người đặt ra.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
     <!-- Interactive Logic -->
     <script>
@@ -241,6 +310,7 @@
             },
             'cr-cc': {
                 title: 'Cái riêng & Cái chung',
+                extraButton: 'Các trường phái khác',
                 concepts: [
                     {
                         name: 'Cái riêng',
@@ -249,6 +319,10 @@
                     {
                         name: 'Cái chung',
                         definition: 'Thuộc tính lặp lại trong nhiều sự vật khác nhau.'
+                    },
+                    {
+                        name: 'Cái đơn nhất',
+                        definition: 'Là những mặt, những đặc điểm chỉ có ở một sự vật, hiện tượng đó và không lặp lại ở bất kỳ sự vật, hiện tượng nào khác.'
                     }
                 ]
             },
@@ -348,17 +422,37 @@
                     </div>
                 `).join('');
 
+                let extraButtonHTML = '';
+                if (data.extraButton) {
+                    extraButtonHTML = `
+                        <div style="text-align: right; margin-top: 20px;">
+                            <button id="open-extra-modal" class="extra-school-btn">
+                                <i class="fa-solid fa-book"></i> ${data.extraButton}
+                            </button>
+                        </div>
+                    `;
+                }
+
                 analysisContent.innerHTML = `
                     <div class="analysis-full">
                         <h3 class="analysis-title" style="text-align: center; margin-bottom: 40px;">${data.title}</h3>
-                        <div class="concepts-wrapper">
+                        <div class="concepts-wrapper" style="flex-wrap: wrap;">
                             ${conceptsHTML}
                         </div>
+                        ${extraButtonHTML}
                     </div>
                 `;
 
                 // Add interaction for the new concept buttons
                 addConceptInteraction();
+
+                // Add interaction for the extra button if it exists
+                if (data.extraButton) {
+                    document.getElementById('open-extra-modal').addEventListener('click', () => {
+                        const modal = document.getElementById('extra-modal');
+                        modal.classList.add('active');
+                    });
+                }
             }
 
             function addConceptInteraction() {
@@ -372,12 +466,40 @@
                         const icon = this.querySelector('i');
                         if (box.classList.contains('active')) {
                             icon.style.transform = 'rotate(180deg)';
+                            // Tự động cuộn xuống để hiển thị nội dung sau khi mở rộng
+                            setTimeout(() => {
+                                box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                            }, 300);
                         } else {
                             icon.style.transform = 'rotate(0)';
                         }
                     });
                 });
             }
+
+            // Open Apply Knowledge Modal
+            const btnApply = document.getElementById('open-apply-modal');
+            if (btnApply) {
+                btnApply.addEventListener('click', () => {
+                    document.getElementById('apply-modal').classList.add('active');
+                });
+            }
+
+            // Global Modal Close Logic
+            document.querySelectorAll('.modal-close').forEach(btn => {
+                btn.addEventListener('click', function () {
+                    this.closest('.modal-overlay').classList.remove('active');
+                });
+            });
+
+            // Close modal on outside click for all modals
+            document.querySelectorAll('.modal-overlay').forEach(modal => {
+                modal.addEventListener('click', (e) => {
+                    if (e.target === modal) {
+                        modal.classList.remove('active');
+                    }
+                });
+            });
         });
     </script>
 </body>
