@@ -18,6 +18,11 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   color: var(--text-dark);
@@ -41,6 +46,71 @@ h1, h2, h3, h4, h5, h6 {
 .reveal.active {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* Navbar Mục Lục */
+.toc-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(15, 32, 65, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 1000;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 500;
+  transition: var(--transition);
+  position: relative;
+}
+
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: var(--secondary-color);
+  transition: var(--transition);
+}
+
+.nav-links a:hover {
+  color: var(--secondary-color);
+}
+
+.nav-links a:hover::after {
+  width: 100%;
 }
 
 /* Presentation Flow Layout */
@@ -512,4 +582,9 @@ footer {
   .conclusion-quote { font-size: 2rem; }
   .section-container { padding: 60px 20px; }
   .analysis-content { padding: 30px; }
+  .nav-links { gap: 15px; }
+  .nav-links a { font-size: 0.85rem; }
+}
+@media (max-width: 480px) {
+  .nav-links { display: none; }
 }
