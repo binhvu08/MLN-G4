@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chương 2: Chủ nghĩa duy vật biện chứng - Học viện Triết học</title>
+    <title>Chương 2: Chủ nghĩa duy vật biện chứng</title>
     <meta name="description"
-        content="Khám phá các cặp phạm trù cơ bản của phép biện chứng duy vật. Tài liệu học tập môn Triết học Mác - Lênin.">
+        content="Khám phá các cặp phạm trù cơ bản của phép biện chứng duy vật qua tình huống thực tế.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -18,595 +18,361 @@
 
 <body>
 
-    <!-- Mobile Header -->
-    <div class="mobile-header">
-        <div class="mobile-logo">
-            <i class="fa-solid fa-landmark"></i> Học Viện Triết Học
+    <!-- 1. Hero Section -->
+    <header class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle">Chương 2 • Chủ nghĩa duy vật biện chứng</p>
+            <h1 class="hero-title">Các cặp phạm trù cơ bản của Triết học Mác-Lenin</h1>
+            <p style="font-size: 1.1rem; opacity: 0.9; max-width: 700px; margin: 0 auto;"></p>
         </div>
-        <button id="mobile-menu-btn" aria-label="Toggle Menu">
-            <i class="fa-solid fa-bars"></i>
-        </button>
-    </div>
+        <a href="#case-study" class="scroll-indicator"><i class="fa-solid fa-chevron-down"></i></a>
+    </header>
 
-    <!-- Left Navbar -->
-    <nav class="left-navbar" id="left-navbar">
-        <div class="brand-header">
-            <img src="logo.png" alt="Học Viện Triết Học Logo" class="brand-logo">
+    <!-- Intro Definition Section -->
+    <section class="intro-definition-section section-container reveal" style="padding-bottom: 20px;">
+        <div class="section-header" style="margin-bottom: 40px;">
+            <h2>Định nghĩa các khái niệm cơ bản</h2>
+        </div>
+        <div class="concept-box active"
+            style="max-width: 900px; margin: 0 auto; box-shadow: var(--shadow-sm); border-color: var(--secondary-color);">
+            <div class="concept-btn" style="cursor: default; pointer-events: none;">
+                Định nghĩa khái niệm
+                <i class="fa-solid fa-book-open"></i>
+            </div>
+            <div class="concept-definition" style="max-height: none;">
+                <p style="font-size: 1.25rem;"><strong>Phạm Trù:</strong> khái niệm rất chung, rất rộng, dùng để chỉ
+                    những đặc điểm, mối liên hệ cơ bản của sự vật, hiện tượng trong thế giới.</p>
+                <p style="padding-top: 0; font-style: italic; color: var(--text-light);">(Nó giống như những nấc thang
+                    để con người nhận thức thế giới)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Categories Grid Section -->
+    <section class="categories-section section-container reveal">
+        <div class="section-header">
+            <h2>Phân tích qua 6 Cặp Phạm Trù</h2>
+            <p>Chọn một thẻ để mở rộng phân tích triết học về tình huống trên.</p>
         </div>
 
-        <h3>Nội dung bài học</h3>
-        <ul id="nav-list">
-            <li><a href="#phan-mo-dau" class="nav-link active-link" data-target="phan-mo-dau"><i
-                        class="fa-solid fa-book-open"></i>1. Định nghĩa phạm trù</a>
-            </li>
-
-            <li class="nav-dropdown">
-                <div class="nav-group-title">
-                    <span><i class="fa-solid fa-layer-group"></i> 2. Các cặp phạm trù</span>
-                    <i class="fa-solid fa-chevron-down toggle-icon"></i>
-                </div>
-                <ul class="sub-menu">
-                    <li><a href="#cai-rieng-cai-chung" class="nav-link" data-target="cai-rieng-cai-chung">2.1 Cái riêng
-                            - Cái chung</a></li>
-                    <li><a href="#nguyen-nhan-ket-qua" class="nav-link" data-target="nguyen-nhan-ket-qua">2.2 Nguyên
-                            nhân - Kết quả</a></li>
-                    <li><a href="#tat-nhien-ngau-nhien" class="nav-link" data-target="tat-nhien-ngau-nhien">2.3 Tất
-                            nhiên - Ngẫu nhiên</a></li>
-                    <li><a href="#noi-dung-hinh-thuc" class="nav-link" data-target="noi-dung-hinh-thuc">2.4 Nội dung -
-                            Hình thức</a></li>
-                    <li><a href="#ban-chat-hien-tuong" class="nav-link" data-target="ban-chat-hien-tuong">2.5 Bản chất -
-                            Hiện tượng</a></li>
-                    <li><a href="#kha-nang-hien-thuc" class="nav-link" data-target="kha-nang-hien-thuc">2.6 Khả năng -
-                            Hiện thực</a></li>
-                </ul>
-            </li>
-
-            <li class="nav-dropdown">
-                <div class="nav-group-title">
-                    <span><i class="fa-solid fa-scale-balanced"></i> 3. Phân tích tình huống</span>
-                    <i class="fa-solid fa-chevron-down toggle-icon"></i>
-                </div>
-                <ul class="sub-menu">
-                    <li><a href="#tinh-huong-noi-dung-hinh-thuc" class="nav-link"
-                            data-target="tinh-huong-noi-dung-hinh-thuc">3.1 Nội dung và Hình thức</a></li>
-                    <li><a href="#tinh-huong-ban-chat-hien-tuong" class="nav-link"
-                            data-target="tinh-huong-ban-chat-hien-tuong">3.2 Bản chất và Hiện tượng</a></li>
-                    <li><a href="#tinh-huong-tat-nhien-ngau-nhien" class="nav-link"
-                            data-target="tinh-huong-tat-nhien-ngau-nhien">3.3 Tất nhiên và Ngẫu nhiên</a></li>
-                    <li><a href="#tinh-huong-kha-nang-hien-thuc" class="nav-link"
-                            data-target="tinh-huong-kha-nang-hien-thuc">3.4 Khả năng - Hiện thực</a></li>
-                    <li><a href="#tinh-huong-cai-rieng-cai-chung" class="nav-link"
-                            data-target="tinh-huong-cai-rieng-cai-chung">3.5 Cái riêng và Cái chung</a></li>
-                    <li><a href="#tinh-huong-nguyen-nhan-ket-qua" class="nav-link"
-                            data-target="tinh-huong-nguyen-nhan-ket-qua">3.6 Nguyên nhân và Kết quả</a></li>
-                </ul>
-            </li>
-
-            <li class="nav-item">
-                <a href="#video-bai-giang" class="nav-link" data-target="video-bai-giang"><i
-                        class="fa-solid fa-video"></i> 4. Video bài giảng</a>
-            </li>
-        </ul>
-    </nav>
-
-    <!-- Page Content Wrapper -->
-    <div class="content-area">
-
-        <!-- Hero / Title Section -->
-        <section class="hero-banner-section">
-            <div class="hero-overlay"></div>
-            <div class="container hero-content">
-                <div class="breadcrumb">
-                    Trang chủ <i class="fa-solid fa-chevron-right"></i> Khóa học <i
-                        class="fa-solid fa-chevron-right"></i> Triết học Mác - Lênin
-                </div>
-                <h2>Chương 2: Chủ nghĩa duy vật biện chứng</h2>
-                <h1>Các cặp phạm trù cơ bản của phép biện chứng duy vật</h1>
-                <div class="metadata">
-                    <div class="metadata-item">
-                        <i class="fa-solid fa-user-tie"></i>
-                        <span>Giảng viên: Nguyễn Thúy Phương</span>
-                    </div>
-                    <div class="metadata-item">
-                        <i class="fa-solid fa-calendar-days"></i>
-                        <span>Cập nhật: 18/05/2026</span>
-                    </div>
+        <div class="categories-grid" id="cat-grid">
+            <!-- Card 1 -->
+            <div class="cat-card" data-cat="nd-ht">
+                <div class="cat-content">
+                    <i class="fa-solid fa-layer-group cat-icon"></i>
+                    <h3 class="cat-title">Nội dung & Hình thức</h3>
+                    <p class="cat-subtitle">Tại sao CV đẹp không đủ?</p>
                 </div>
             </div>
-        </section>
 
-        <!-- Main Content Area -->
-        <main class="container main-wrapper">
-
-            <!-- Article Content -->
-            <article class="article-content">
-
-                <!-- FLASHCARD 1: Định nghĩa phạm trù -->
-                <div class="flashcard-panel active" id="phan-mo-dau">
-                    <h3>1. Định nghĩa các khái niệm cơ bản</h3>
-                    <details class="academic-accordion">
-                        <summary><i class="fa-solid fa-book-open"></i> Định nghĩa khái niệm <i
-                                class="fa-solid fa-chevron-down toggle-icon"></i></summary>
-                        <div class="accordion-inner">
-                            <div class="definition-box" style="margin: 0; border-left: none;">
-                                <span class="term-tooltip"
-                                    data-tooltip="Là khái niệm cực kỳ chung, phản ánh những mối liên hệ phổ biến nhất">Phạm
-                                    Trù</span>: khái niệm rất chung, rất rộng, dùng để chỉ những đặc điểm, mối liên
-                                hệ cơ bản của sự vật, hiện tượng trong thế giới.<br>
-                                <em>(Nó giống như những nấc thang để con người nhận thức thế giới)</em>
-                            </div>
-                        </div>
-                    </details>
+            <!-- Card 2 -->
+            <div class="cat-card" data-cat="bc-ht">
+                <div class="cat-content">
+                    <i class="fa-solid fa-magnifying-glass cat-icon"></i>
+                    <h3 class="cat-title">Bản chất & Hiện tượng</h3>
+                    <p class="cat-subtitle">Xuyên qua vỏ bọc bên ngoài</p>
                 </div>
-
-                <!-- FLASHCARD 2.1: Cái riêng - Cái chung -->
-                <div class="flashcard-panel concept-card" id="cai-rieng-cai-chung">
-                    <h4><span>2.1</span> Cái riêng và Cái chung</h4>
-                    <details class="academic-accordion">
-                        <summary><i class="fa-solid fa-book-open"></i> Định nghĩa các phạm trù <i
-                                class="fa-solid fa-chevron-down toggle-icon"></i></summary>
-                        <div class="accordion-inner">
-                            <div class="definition-box" style="margin: 0; border-left: none;">
-                                <ul>
-                                    <li><span class="term-tooltip"
-                                            data-tooltip="Chỉ một sự vật, hiện tượng duy nhất">Cái riêng</span>: Là một
-                                        sự vật, một hiện tượng độc lập, nhất định</li>
-                                    <li><span class="term-tooltip" data-tooltip="Thuộc tính duy nhất không lặp lại">Cái
-                                            đơn nhất</span>: Là những mặt, những đặc điểm chỉ có ở một sự vật, hiện
-                                        tượng đó và không lặp lại ở bất kỳ sự vật, hiện tượng nào khác</li>
-                                    <li><span class="term-tooltip"
-                                            data-tooltip="Thuộc tính phổ biến lặp lại ở nhiều sự vật">Cái chung</span>:
-                                        Là những mặt, những thuộc tính không chỉ có ở một sự vật, mà
-                                        còn lặp lại trong nhiều sự vật, hiện tượng khác nhau</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </details>
-                    <details class="academic-accordion">
-                        <summary><i class="fa-solid fa-lightbulb"></i> Xem ví dụ thực tế <i
-                                class="fa-solid fa-chevron-down toggle-icon"></i></summary>
-                        <div class="accordion-inner">
-                            <div class="example-box" style="margin: 0; border-left: none;">
-                                <strong>Cái riêng:</strong> Thủ đô Hà Nội, thành phố Hồ Chí Minh hay thành phố Đà
-                                Nẵng.<br>
-                                <strong>Cái chung:</strong> Đều là những khu vực tập trung đông dân cư, có cơ sở hạ tầng
-                                phát
-                                triển, là trung tâm hành chính hoặc kinh tế.<br>
-                                <strong>Cái đơn nhất:</strong> Tháp Rùa (chỉ có ở Hà Nội), cầu Rồng (chỉ có ở Đà Nẵng)
-                            </div>
-                        </div>
-                    </details>
-                </div>
-
-                <!-- FLASHCARD 2.2: Nguyên nhân - Kết quả -->
-                <div class="flashcard-panel concept-card" id="nguyen-nhan-ket-qua">
-                    <h4><span>2.2</span> Nguyên nhân và Kết quả</h4>
-                    <details class="academic-accordion">
-                        <summary><i class="fa-solid fa-book-open"></i> Định nghĩa các phạm trù <i
-                                class="fa-solid fa-chevron-down toggle-icon"></i></summary>
-                        <div class="accordion-inner">
-                            <div class="definition-box" style="margin: 0; border-left: none;">
-                                <ul>
-                                    <li><span class="term-tooltip" data-tooltip="Tác động sinh ra sự biến đổi">Nguyên
-                                            nhân</span>: Sự tác động lẫn nhau giữa các mặt trong một sự vật hoặc
-                                        giữa các sự vật với nhau tạo ra một sự biến đổi nhất định.</li>
-                                    <li><span class="term-tooltip" data-tooltip="Sự biến đổi do nguyên nhân tạo ra">Kết
-                                            quả</span>: Những biến đổi xuất hiện do những tác động đó tạo nên.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </details>
-                    <details class="academic-accordion">
-                        <summary><i class="fa-solid fa-lightbulb"></i> Xem ví dụ thực tế <i
-                                class="fa-solid fa-chevron-down toggle-icon"></i></summary>
-                        <div class="accordion-inner">
-                            <div class="example-box" style="margin: 0; border-left: none;">
-                                Việc học tập chăm chỉ rèn luyện tư duy <em>(nguyên nhân)</em> dẫn đến kết quả thi cử đạt
-                                điểm cao và sự nghiệp thăng tiến <em>(kết quả)</em>.
-                            </div>
-                        </div>
-                    </details>
-                </div>
-
-                <!-- FLASHCARD 2.3: Tất nhiên - Ngẫu nhiên -->
-                <div class="flashcard-panel concept-card" id="tat-nhien-ngau-nhien">
-                    <h4><span>2.3</span> Tất nhiên và Ngẫu nhiên</h4>
-                    <details class="academic-accordion">
-                        <summary><i class="fa-solid fa-book-open"></i> Định nghĩa các phạm trù <i
-                                class="fa-solid fa-chevron-down toggle-icon"></i></summary>
-                        <div class="accordion-inner">
-                            <div class="definition-box" style="margin: 0; border-left: none;">
-                                <ul>
-                                    <li><span class="term-tooltip"
-                                            data-tooltip="Do nguyên nhân cơ bản, tất yếu phải xảy ra">Tất nhiên (Tất
-                                            yếu)</span>: Cái do nguyên nhân cơ bản, bên trong quyết định;
-                                        trong điều kiện nhất định nó phải xảy ra đúng như thế, không thể khác.</li>
-                                    <li><span class="term-tooltip"
-                                            data-tooltip="Do tác động ngẫu nhiên, có thể xảy ra hoặc không">Ngẫu
-                                            nhiên</span>: Cái do sự kết hợp tình cờ của các nguyên nhân bên ngoài
-                                        quyết định; nó có thể xảy ra hoặc không, xảy ra thế này hoặc thế khác.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </details>
-                    <details class="academic-accordion">
-                        <summary><i class="fa-solid fa-lightbulb"></i> Xem ví dụ thực tế <i
-                                class="fa-solid fa-chevron-down toggle-icon"></i></summary>
-                        <div class="accordion-inner">
-                            <div class="example-box" style="margin: 0; border-left: none;">
-                                Gieo hạt ngô xuống đất thì tất yếu nảy mầm thành cây ngô <em>(tất nhiên)</em>,
-                                nhưng cây ngô đó bị một con vật dẫm nát hay bị đổ do một cơn gió mạnh là <em>ngẫu
-                                    nhiên</em>.
-                            </div>
-                        </div>
-                    </details>
-                </div>
-
-                <!-- FLASHCARD 2.4: Nội dung - Hình thức -->
-                <div class="flashcard-panel concept-card" id="noi-dung-hinh-thuc">
-                    <h4><span>2.4</span> Nội dung và Hình thức</h4>
-                    <details class="academic-accordion">
-                        <summary><i class="fa-solid fa-book-open"></i> Định nghĩa các phạm trù <i
-                                class="fa-solid fa-chevron-down toggle-icon"></i></summary>
-                        <div class="accordion-inner">
-                            <div class="definition-box" style="margin: 0; border-left: none;">
-                                <ul>
-                                    <li><span class="term-tooltip" data-tooltip="Tất cả các yếu tố tạo thành sự vật">Nội
-                                            dung</span>: Tổng hợp tất cả các mặt, yếu tố, quá trình tạo thành sự vật.
-                                    </li>
-                                    <li><span class="term-tooltip"
-                                            data-tooltip="Cách sắp xếp, tổ chức của nội dung">Hình thức</span>: Cách
-                                        thức tổ chức, sắp xếp các yếu tố nội dung, là phương
-                                        thức tồn tại của sự vật.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </details>
-                    <details class="academic-accordion">
-                        <summary><i class="fa-solid fa-lightbulb"></i> Xem ví dụ thực tế <i
-                                class="fa-solid fa-chevron-down toggle-icon"></i></summary>
-                        <div class="accordion-inner">
-                            <div class="example-box" style="margin: 0; border-left: none;">
-                                <strong>Nội dung</strong> của một bài giảng là các kiến thức, khái niệm được truyền tải;
-                                còn <strong>hình thức</strong> là cách giảng viên trình bày bằng lời nói, slide hay các
-                                ví dụ minh họa.
-                            </div>
-                        </div>
-                    </details>
-                </div>
-
-                <!-- FLASHCARD 2.5: Bản chất - Hiện tượng -->
-                <div class="flashcard-panel concept-card" id="ban-chat-hien-tuong">
-                    <h4><span>2.5</span> Bản chất và Hiện tượng</h4>
-                    <details class="academic-accordion">
-                        <summary><i class="fa-solid fa-book-open"></i> Định nghĩa các phạm trù <i
-                                class="fa-solid fa-chevron-down toggle-icon"></i></summary>
-                        <div class="accordion-inner">
-                            <div class="definition-box" style="margin: 0; border-left: none;">
-                                <ul>
-                                    <li><span class="term-tooltip"
-                                            data-tooltip="Mối liên hệ tất yếu, cốt lõi bên trong">Bản chất</span>: Tổng
-                                        hợp các mặt, mối liên hệ tất nhiên, tương đối ổn định
-                                        bên trong, quy định sự vận động và phát triển của sự vật.</li>
-                                    <li><span class="term-tooltip"
-                                            data-tooltip="Biểu hiện ra bên ngoài của bản chất">Hiện tượng</span>: Sự
-                                        biểu hiện ra bên ngoài của bản chất.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </details>
-                    <details class="academic-accordion">
-                        <summary><i class="fa-solid fa-lightbulb"></i> Xem ví dụ thực tế <i
-                                class="fa-solid fa-chevron-down toggle-icon"></i></summary>
-                        <div class="accordion-inner">
-                            <div class="example-box" style="margin: 0; border-left: none;">
-                                Bản chất của nước là sự liên kết giữa các phân tử H2O; còn việc chúng ta
-                                thấy nước ở dạng lỏng, trong suốt, không màu, không vị là những thứ tác động trực tiếp
-                                vào giác
-                                quan của chúng ta (hiện tượng).
-                            </div>
-                        </div>
-                    </details>
-                </div>
-
-                <!-- FLASHCARD 2.6: Khả năng - Hiện thực -->
-                <div class="flashcard-panel concept-card" id="kha-nang-hien-thuc">
-                    <h4><span>2.6</span> Khả năng và Hiện thực</h4>
-                    <details class="academic-accordion">
-                        <summary><i class="fa-solid fa-book-open"></i> Định nghĩa các phạm trù <i
-                                class="fa-solid fa-chevron-down toggle-icon"></i></summary>
-                        <div class="accordion-inner">
-                            <div class="definition-box" style="margin: 0; border-left: none;">
-                                <ul>
-                                    <li><span class="term-tooltip" data-tooltip="Những gì đang thực sự tồn tại">Hiện
-                                            thực</span>: Những gì hiện có, hiện đang tồn tại thực sự.</li>
-                                    <li><span class="term-tooltip"
-                                            data-tooltip="Những gì có thể xảy ra trong tương lai nếu đủ điều kiện">Khả
-                                            năng</span>: Những gì hiện chưa có, nhưng sẽ có khi có đủ điều kiện tương
-                                        ứng.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </details>
-                    <details class="academic-accordion">
-                        <summary><i class="fa-solid fa-lightbulb"></i> Xem ví dụ thực tế <i
-                                class="fa-solid fa-chevron-down toggle-icon"></i></summary>
-                        <div class="accordion-inner">
-                            <div class="example-box" style="margin: 0; border-left: none;">
-                                Một sinh viên đang học năm cuối là <strong>hiện thực</strong>, còn việc sinh viên đó trở
-                                thành một kỹ sư giỏi trong tương lai là một <strong>khả năng</strong> <em>(sẽ thành hiện
-                                    thực nếu có đủ điều kiện như
-                                    học tập tốt, tốt nghiệp và tìm được việc làm)</em>.
-                            </div>
-                        </div>
-                    </details>
-                </div>
-
-                <!-- NEW SECTION: Phân tích tình huống -->
-
-                <!-- FLASHCARD 3.1 -->
-                <div class="flashcard-panel concept-card" id="tinh-huong-noi-dung-hinh-thuc">
-                    <h4><span>3.1</span> Tình huống: Nội dung và Hình thức</h4>
-                    <p class="case-study-intro"><em>Để lý giải tại sao sinh viên A (bằng Giỏi, CV đẹp) lại thất bại và
-                            sinh viên B (bằng Khá, CV
-                            đơn giản) lại thành công.</em></p>
-                    <details class="academic-accordion" open>
-                        <summary><i class="fa-solid fa-microscope"></i> Phân tích chuyên sâu <i
-                                class="fa-solid fa-chevron-down toggle-icon"></i></summary>
-                        <div class="accordion-inner">
-                            <div class="definition-box" style="margin: 0; border-left: none;">
-                                Trong tình huống này, <strong>Nội dung</strong> chính là năng lực thực tế, tư duy giải
-                                quyết vấn đề và kiến
-                                thức chuyên môn mà công ty cần. <strong>Hình thức</strong> là bằng cấp (Giỏi/Khá), vẻ
-                                ngoài của CV và các từ
-                                khóa "đao to búa lớn".<br><br>
-                                Sinh viên A có "hình thức" rất bóng bẩy nhưng "nội dung" (khả năng giải quyết bài toán
-                                thực tế)
-                                lại không tương xứng hoặc không phù hợp với yêu cầu của tập đoàn. Ngược lại, sinh viên B
-                                tuy có
-                                "hình thức" đơn giản hơn nhưng lại chứa đựng "nội dung" mà nhà tuyển dụng tìm kiếm. Sự
-                                thất bại
-                                của A là do hình thức không phản ánh đúng nội dung năng lực đáp ứng công việc.
-                            </div>
-                        </div>
-                    </details>
-                </div>
-
-                <!-- FLASHCARD 3.2 -->
-                <div class="flashcard-panel concept-card" id="tinh-huong-ban-chat-hien-tuong">
-                    <h4><span>3.2</span> Tình huống: Bản chất và Hiện tượng</h4>
-                    <p class="case-study-intro"><em>Phân tích vì sao bằng cấp và kỹ năng quảng bá không phải là yếu tố
-                            quyết định cuối cùng.</em></p>
-                    <details class="academic-accordion" open>
-                        <summary><i class="fa-solid fa-microscope"></i> Phân tích chuyên sâu <i
-                                class="fa-solid fa-chevron-down toggle-icon"></i></summary>
-                        <div class="accordion-inner">
-                            <div class="definition-box" style="margin: 0; border-left: none;">
-                                Bằng cấp loại Giỏi và các từ khóa Leadership, Proactive của A chỉ là <strong>hiện
-                                    tượng</strong> bên ngoài,
-                                không phải lúc nào cũng đồng nhất với <strong>bản chất</strong> năng lực thực
-                                sự.<br><br>
-                                Tập đoàn lớn thường có quy trình phỏng vấn khắt khe để "xuyên qua hiện tượng" nhằm tìm
-                                kiếm "bản
-                                chất". Khi A không giải quyết được bài toán thực tế, bản chất thiếu kinh nghiệm hoặc
-                                thiếu tư
-                                duy thực tiễn đã lộ diện. Sinh viên B đã bộc lộ được bản chất năng lực thông qua việc
-                                giải quyết
-                                vấn đề cụ thể.
-                            </div>
-                        </div>
-                    </details>
-                </div>
-
-                <!-- FLASHCARD 3.3 -->
-                <div class="flashcard-panel concept-card" id="tinh-huong-tat-nhien-ngau-nhien">
-                    <h4><span>3.3</span> Tình huống: Tất nhiên và Ngẫu nhiên</h4>
-                    <p class="case-study-intro"><em>Giải thích nguyên nhân cốt lõi đằng sau sự thành công hay thất
-                            bại.</em></p>
-                    <details class="academic-accordion" open>
-                        <summary><i class="fa-solid fa-microscope"></i> Phân tích chuyên sâu <i
-                                class="fa-solid fa-chevron-down toggle-icon"></i></summary>
-                        <div class="accordion-inner">
-                            <div class="definition-box" style="margin: 0; border-left: none;">
-                                Việc sinh viên B trúng tuyển là kết quả <strong>tất nhiên</strong> của quá trình tích
-                                lũy kỹ năng và khả năng
-                                ứng biến thực tế.<br><br>
-                                Việc A cho rằng B "ăn may" hay "có người quen" là đang đánh tráo cái tất nhiên thành cái
-                                <strong>ngẫu
-                                    nhiên</strong>. Sự ấm ức của A cho thấy A chưa nhận thức được nguyên nhân thực sự
-                                (tất
-                                yếu) dẫn đến thất bại của mình là sự thiếu hụt năng lực thực tế.<br><br>
-                                <em>Cái Ngẫu nhiên:</em> Việc đề bài phỏng vấn hôm đó rơi trúng vào một
-                                phần kiến thức mà B từng tìm hiểu, hay việc tâm lý của A hôm đó có chút hồi hộp.
-                            </div>
-                        </div>
-                    </details>
-                </div>
-
-                <!-- FLASHCARD 3.4 -->
-                <div class="flashcard-panel concept-card" id="tinh-huong-kha-nang-hien-thuc">
-                    <h4><span>3.4</span> Tình huống: Khả năng và Hiện thực</h4>
-                    <p class="case-study-intro"><em>Sự khác biệt giữa tiềm năng và khả năng tạo ra giá trị thực tế.</em>
-                    </p>
-                    <details class="academic-accordion" open>
-                        <summary><i class="fa-solid fa-microscope"></i> Phân tích chuyên sâu <i
-                                class="fa-solid fa-chevron-down toggle-icon"></i></summary>
-                        <div class="accordion-inner">
-                            <div class="definition-box" style="margin: 0; border-left: none;">
-                                Tấm bằng Giỏi và CV đẹp của A chỉ chứng minh A có <strong>khả năng (tiềm năng)</strong>
-                                làm việc tốt trong tương
-                                lai. Nhưng doanh nghiệp cần một người có thể lập tức tạo ra giá trị, tức là họ cần
-                                <strong>hiện thực</strong>.
-                                <br><br>
-                                Sinh viên B đã biến những kiến thức mình có thành "hiện thực" ngay trong buổi phỏng vấn
-                                khi giải
-                                quyết được bài toán của công ty.
-                            </div>
-                        </div>
-                    </details>
-                </div>
-
-                <!-- FLASHCARD 3.5 -->
-                <div class="flashcard-panel concept-card" id="tinh-huong-cai-rieng-cai-chung">
-                    <h4><span>3.5</span> Tình huống: Cái riêng và Cái chung</h4>
-                    <p class="case-study-intro"><em>Cặp phạm trù này giúp giải thích mối quan hệ giữa cá nhân ứng viên
-                            và yêu cầu tuyển
-                            dụng.</em></p>
-                    <details class="academic-accordion" open>
-                        <summary><i class="fa-solid fa-microscope"></i> Phân tích chuyên sâu <i
-                                class="fa-solid fa-chevron-down toggle-icon"></i></summary>
-                        <div class="accordion-inner">
-                            <div class="definition-box" style="margin: 0; border-left: none;">
-                                Sinh viên A và B là những <strong>cái riêng</strong>. Yêu cầu về năng lực thực tiễn của
-                                công ty là <strong>cái chung</strong>.
-                                <br><br>
-                                Sinh viên B trúng tuyển vì "cái riêng" của mình chứa đựng được "cái chung" mà công ty
-                                cần. Sinh
-                                viên A bị loại vì dù có những đặc điểm riêng nổi bật (bằng Giỏi) nhưng lại thiếu đi cái
-                                chung
-                                cốt lõi là năng lực thực tiễn.
-                            </div>
-                        </div>
-                    </details>
-                </div>
-
-                <!-- FLASHCARD 3.6 -->
-                <div class="flashcard-panel concept-card" id="tinh-huong-nguyen-nhan-ket-qua">
-                    <h4><span>3.6</span> Tình huống: Nguyên nhân và Kết quả</h4>
-                    <p class="case-study-intro"><em>Cặp phạm trù này dùng để bác bỏ luận điểm "ăn may" của sinh viên
-                            A.</em></p>
-                    <details class="academic-accordion" open>
-                        <summary><i class="fa-solid fa-microscope"></i> Phân tích chuyên sâu <i
-                                class="fa-solid fa-chevron-down toggle-icon"></i></summary>
-                        <div class="accordion-inner">
-                            <div class="definition-box" style="margin: 0; border-left: none;">
-                                Việc B trúng tuyển là <strong>kết quả</strong> tất yếu của <strong>nguyên nhân</strong>
-                                là quá trình tích lũy kỹ năng và tư duy
-                                thực tế. Việc A bị loại là kết quả của nguyên nhân chỉ chú trọng hình thức mà thiếu hụt
-                                nội dung
-                                năng lực. <br><br>
-                                Do đó, không có chuyện "ăn may" hay "có người quen", mà đây là mối liên hệ
-                                nhân quả khách quan trong tuyển dụng.
-                            </div>
-                        </div>
-                    </details>
-                </div>
-
-                <!-- FLASHCARD 4: Video bài giảng -->
-                <div class="flashcard-panel concept-card" id="video-bai-giang">
-
-                    <h4><span>4</span> Video bài giảng</h4>
-
-                    <p class="case-study-intro">
-                        <em>Tổng hợp kiến thức trực quan qua video bài giảng.</em>
-                    </p>
-
-                    <div class="video-wrapper">
-
-                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Jlyki-FbBPs?si=7D_yTjFoiltLbHXd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-            <!-- Sidebar -->
-            <aside class="sidebar">
-
-                <!-- Quote Widget -->
-                <div class="sidebar-widget">
-                    <h3>Góc suy ngẫm</h3>
-                    <div class="quote-box">
-                        <i class="fa-solid fa-quote-left quote-icon"></i>
-                        <p class="quote-text">
-                            "Sự phân đôi của cái có một không hai và sự nhận thức các bộ phận mâu thuẫn của nó... là
-                            thực
-                            chất của phép biện chứng."
-                        </p>
-                        <strong>- V.I. Lênin -</strong>
-                    </div>
-                </div>
-
-            </aside>
-
-        </main>
-
-        <footer>
-            <div class="container">
-                <p>&copy; 2026 Group 4.</p>
             </div>
-        </footer>
 
-    </div> <!-- End content-area -->
+            <!-- Card 3 -->
+            <div class="cat-card" data-cat="tn-nn">
+                <div class="cat-content">
+                    <i class="fa-solid fa-dice cat-icon"></i>
+                    <h3 class="cat-title">Tất nhiên & Ngẫu nhiên</h3>
+                    <p class="cat-subtitle">Sự thành công có phải do may mắn?</p>
+                </div>
+            </div>
 
-    <!-- Flashcard & Mobile Menu Script -->
+            <!-- Card 4 -->
+            <div class="cat-card" data-cat="kn-ht">
+                <div class="cat-content">
+                    <i class="fa-solid fa-seedling cat-icon"></i>
+                    <h3 class="cat-title">Khả năng & Hiện thực</h3>
+                    <p class="cat-subtitle">Khoảng cách từ tiềm năng đến thực tế</p>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="cat-card" data-cat="cr-cc">
+                <div class="cat-content">
+                    <i class="fa-solid fa-users cat-icon"></i>
+                    <h3 class="cat-title">Cái riêng & Cái chung</h3>
+                    <p class="cat-subtitle">Sự phù hợp giữa cá nhân và tổ chức</p>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="cat-card" data-cat="nn-kq">
+                <div class="cat-content">
+                    <i class="fa-solid fa-link cat-icon"></i>
+                    <h3 class="cat-title">Nguyên nhân & Kết quả</h3>
+                    <p class="cat-subtitle">Luật nhân quả trong tuyển dụng</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. Expanded Analysis -->
+        <div id="analysis-box" class="analysis-container">
+            <div class="analysis-content" id="analysis-content">
+                <!-- Content will be injected by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Conclusion Section -->
+    <section class="conclusion-section reveal">
+        <div class="section-container" style="padding: 0;">
+            <div class="conclusion-quote">
+                <i class="fa-solid fa-quote-left"></i>
+                Nhà tuyển dụng đánh giá năng lực thực tế, chứ không chỉ nhìn vào những danh xưng bóng bẩy bên ngoài.
+            </div>
+            <p style="margin-top: 30px; font-size: 1.2rem; font-family: 'Inter', sans-serif;">Triết học giúp chúng ta
+                nhìn nhận bản chất của mọi vấn đề một cách sâu sắc và khách quan.</p>
+        </div>
+    </section>
+
+    <!-- 5. Case Study Section -->
+    <section id="case-study" class="case-study-section section-container reveal">
+        <div class="section-header">
+            <h2>Bài toán Tuyển dụng</h2>
+            <p>Trong đợt tuyển dụng Management Trainee của một tập đoàn lớn, có hai ứng viên lọt vào vòng cuối.</p>
+        </div>
+
+        <div class="case-split">
+            <!-- Sinh viên A -->
+            <div class="case-card student-a">
+                <div class="case-icon"><i class="fa-solid fa-user-graduate"></i></div>
+                <h3 class="case-title">Sinh viên A</h3>
+                <ul class="case-list">
+                    <li><i class="fa-solid fa-certificate"></i> Tốt nghiệp loại Giỏi</li>
+                    <li><i class="fa-solid fa-file-lines"></i> CV đẹp, thiết kế bắt mắt</li>
+                    <li><i class="fa-solid fa-bullhorn"></i> Dùng nhiều từ khóa "Leadership", "Proactive"</li>
+                    <li><i class="fa-solid fa-xmark"></i> <strong>Kết quả: Bị loại</strong> vì không giải quyết được bài
+                        toán thực tế của công ty.</li>
+                </ul>
+            </div>
+
+            <!-- Sinh viên B -->
+            <div class="case-card student-b">
+                <div class="case-icon"><i class="fa-solid fa-user-tie"></i></div>
+                <h3 class="case-title">Sinh viên B</h3>
+                <ul class="case-list">
+                    <li><i class="fa-solid fa-graduation-cap"></i> Tốt nghiệp loại Khá</li>
+                    <li><i class="fa-solid fa-file-lines"></i> CV đơn giản, tập trung vào kỹ năng</li>
+                    <li><i class="fa-solid fa-puzzle-piece"></i> Phân tích và đưa ra giải pháp khả thi</li>
+                    <li><i class="fa-solid fa-check"></i> <strong>Kết quả: Trúng tuyển</strong> vì đáp ứng đúng năng lực
+                        công ty cần.</li>
+                </ul>
+            </div>
+        </div>
+
+        <p style="text-align: center; margin-top: 30px; font-style: italic; color: var(--text-light);">Sinh viên A bất
+            mãn cho rằng B "ăn may" hoặc có "cơ cấu". Chúng ta hãy cùng dùng lăng kính Triết học để giải mã sự việc này.
+        </p>
+    </section>
+    <!-- 6. Video Section -->
+    <section class="video-section section-container reveal">
+        <div class="section-header">
+            <h2>Tóm tắt Video Bài Giảng</h2>
+            <p>Ôn lại kiến thức lý thuyết về các cặp phạm trù.</p>
+        </div>
+        <div class="video-card">
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube-nocookie.com/embed/Jlyki-FbBPs?si=7D_yTjFoiltLbHXd"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Học viện Triết học. Designed for Interactive Presentation.</p>
+    </footer>
+
+    <!-- Interactive Logic -->
     <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const navLinks = document.querySelectorAll('.nav-link');
-            const flashcards = document.querySelectorAll('.flashcard-panel');
-            const mobileBtn = document.getElementById('mobile-menu-btn');
-            const leftNavbar = document.getElementById('left-navbar');
-            const contentArea = document.querySelector('.content-area');
+        // Analysis Content Data
+        const analysisData = {
+            'nd-ht': {
+                title: 'Nội dung & Hình thức',
+                concepts: [
+                    {
+                        name: 'Nội dung',
+                        definition: 'Tổng hợp tất cả các mặt, yếu tố, quá trình tạo thành sự vật.'
+                    },
+                    {
+                        name: 'Hình thức',
+                        definition: 'Cách thức tổ chức, sắp xếp các yếu tố nội dung, là phương thức tồn tại của sự vật.'
+                    }
+                ]
+            },
+            'bc-ht': {
+                title: 'Bản chất & Hiện tượng',
+                concepts: [
+                    {
+                        name: 'Bản chất',
+                        definition: 'Tổng hợp các mặt, mối liên hệ tất nhiên, tương đối ổn định bên trong.'
+                    },
+                    {
+                        name: 'Hiện tượng',
+                        definition: 'Sự biểu hiện ra bên ngoài của bản chất.'
+                    }
+                ]
+            },
+            'tn-nn': {
+                title: 'Tất nhiên & Ngẫu nhiên',
+                concepts: [
+                    {
+                        name: 'Tất nhiên',
+                        definition: 'Cái do nguyên nhân cơ bản bên trong quyết định.'
+                    },
+                    {
+                        name: 'Ngẫu nhiên',
+                        definition: 'Cái do sự kết hợp tình cờ của các nguyên nhân bên ngoài.'
+                    }
+                ]
+            },
+            'cr-cc': {
+                title: 'Cái riêng & Cái chung',
+                concepts: [
+                    {
+                        name: 'Cái riêng',
+                        definition: 'Một sự vật, hiện tượng độc lập, nhất định.'
+                    },
+                    {
+                        name: 'Cái chung',
+                        definition: 'Thuộc tính lặp lại trong nhiều sự vật khác nhau.'
+                    }
+                ]
+            },
+            'nn-kq': {
+                title: 'Nguyên nhân & Kết quả',
+                concepts: [
+                    {
+                        name: 'Nguyên nhân',
+                        definition: 'Sự tác động tạo ra biến đổi.'
+                    },
+                    {
+                        name: 'Kết quả',
+                        definition: 'Biến đổi xuất hiện do tác động tạo nên.'
+                    }
+                ]
+            },
+            'kn-ht': {
+                title: 'Khả năng & Hiện thực',
+                concepts: [
+                    {
+                        name: 'Khả năng',
+                        definition: 'Những gì chưa có nhưng sẽ có nếu đủ điều kiện.'
+                    },
+                    {
+                        name: 'Hiện thực',
+                        definition: 'Những gì đang tồn tại thực sự.'
+                    }
+                ]
+            }
+        };
 
-            // Mobile menu toggle
-            mobileBtn.addEventListener('click', () => {
-                leftNavbar.classList.toggle('show');
+        document.addEventListener('DOMContentLoaded', () => {
+            // Scroll Reveal Animation
+            const revealElements = document.querySelectorAll('.reveal');
+
+            const revealObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                        // Optional: stop observing once revealed
+                        // revealObserver.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.15 });
+
+            revealElements.forEach(el => revealObserver.observe(el));
+
+            // Interactive Cards Logic
+            const cards = document.querySelectorAll('.cat-card');
+            const analysisBox = document.getElementById('analysis-box');
+            const analysisContent = document.getElementById('analysis-content');
+
+            cards.forEach(card => {
+                card.addEventListener('click', () => {
+                    const catKey = card.getAttribute('data-cat');
+                    const data = analysisData[catKey];
+
+                    // Remove active from all cards
+                    cards.forEach(c => c.classList.remove('active'));
+
+                    // Add active to clicked
+                    card.classList.add('active');
+
+                    // If box is already open, fade out content, change it, fade in
+                    if (analysisBox.classList.contains('active')) {
+                        analysisContent.style.opacity = '0';
+                        analysisContent.style.transform = 'translateY(20px)';
+
+                        setTimeout(() => {
+                            updateAnalysisContent(data);
+                            analysisContent.style.opacity = '1';
+                            analysisContent.style.transform = 'translateY(0)';
+                        }, 300);
+                    } else {
+                        // First time opening
+                        updateAnalysisContent(data);
+                        analysisBox.classList.add('active');
+                    }
+
+                    // Scroll to analysis box slightly
+                    setTimeout(() => {
+                        analysisBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                    }, 400);
+                });
             });
 
-            // Close mobile menu when clicking outside
-            contentArea.addEventListener('click', () => {
-                if (window.innerWidth <= 1024 && leftNavbar.classList.contains('show')) {
-                    leftNavbar.classList.remove('show');
-                }
-            });
+            function updateAnalysisContent(data) {
+                let conceptsHTML = data.concepts.map((concept) => `
+                    <div class="concept-box">
+                        <button class="concept-btn">
+                            ${concept.name}
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="concept-definition">
+                            <p>${concept.definition}</p>
+                        </div>
+                    </div>
+                `).join('');
 
-            navLinks.forEach(link => {
-                link.addEventListener('click', (e) => {
-                    e.preventDefault();
+                analysisContent.innerHTML = `
+                    <div class="analysis-full">
+                        <h3 class="analysis-title" style="text-align: center; margin-bottom: 40px;">${data.title}</h3>
+                        <div class="concepts-wrapper">
+                            ${conceptsHTML}
+                        </div>
+                    </div>
+                `;
 
-                    // Remove active from all links
-                    navLinks.forEach(l => l.classList.remove('active-link'));
+                // Add interaction for the new concept buttons
+                addConceptInteraction();
+            }
 
-                    // Add active to clicked link
-                    link.classList.add('active-link');
+            function addConceptInteraction() {
+                const conceptBtns = document.querySelectorAll('.concept-btn');
+                conceptBtns.forEach(btn => {
+                    btn.addEventListener('click', function () {
+                        const box = this.parentElement;
+                        // Toggle active class on the parent concept-box
+                        box.classList.toggle('active');
 
-                    // Get target id
-                    const targetId = link.getAttribute('data-target');
-
-                    // Hide all flashcards and show the targeted one
-                    flashcards.forEach(card => {
-                        if (card.id === targetId) {
-                            card.classList.add('active');
-                            // Scroll to top of content area to view flashcard clearly
-                            window.scrollTo({ top: 0, behavior: 'smooth' });
+                        const icon = this.querySelector('i');
+                        if (box.classList.contains('active')) {
+                            icon.style.transform = 'rotate(180deg)';
                         } else {
-                            card.classList.remove('active');
+                            icon.style.transform = 'rotate(0)';
                         }
                     });
-
-                    // Close mobile menu after clicking a link
-                    if (window.innerWidth <= 1024) {
-                        leftNavbar.classList.remove('show');
-                    }
                 });
-            });
-
-            // Collapsible Nav Menu
-            const navDropdowns = document.querySelectorAll('.nav-group-title');
-            navDropdowns.forEach(dropdown => {
-                dropdown.addEventListener('click', () => {
-                    const parentLi = dropdown.parentElement;
-                    const subMenu = parentLi.querySelector('.sub-menu');
-                    parentLi.classList.toggle('active');
-
-                    if (parentLi.classList.contains('active')) {
-                        subMenu.style.maxHeight = subMenu.scrollHeight + "px";
-                    } else {
-                        subMenu.style.maxHeight = null;
-                    }
-                });
-            });
+            }
         });
     </script>
 </body>
