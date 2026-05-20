@@ -677,7 +677,7 @@ footer {
   background: var(--white);
   border-radius: 16px;
   width: 90%;
-  max-width: 600px;
+  max-width: 800px;
   position: relative;
   transform: translateY(30px);
   transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
@@ -791,6 +791,49 @@ footer {
 .btn-primary i {
   margin-right: 10px;
 }
+
+/* Table Styles for Modal */
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.apply-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.apply-table th,
+.apply-table td {
+  padding: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.apply-table th {
+  background-color: var(--primary-color);
+  color: var(--white);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.apply-table td {
+  font-size: 1rem;
+  color: var(--text-dark);
+}
+
+.apply-table tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.apply-table td strong {
+  color: var(--secondary-color);
+}
+
 /* Responsive */
 @media (max-width: 992px) {
   .case-split {
